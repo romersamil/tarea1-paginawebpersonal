@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('img/fondo.jpg') no-repeat;
+    background-size: cover;
+    font-family: 'Lucida Console', serif;
+}
+.main {
+    width: 600px;
+    background: rgba(0, 0, 0, .4);
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.box-img {
+    border-radius: 50%;
+}
+
+.main h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin: 30px 0 20px;
+    
+}
+
+.main h2 {
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: white;
+    font-style: italic;
+}
+
+.main h5 {
+text-align: justify;
+}
+
+.main ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.main ul li {
+    display: inline-block;
+}
+
+.main ul li a{
+    color: white;
+    font-size: 45px;
+    padding: 10px 5px;
+    transition: all .5 ease-in-out;
+    display: block;
+}
+
+
+.main ul li a:hover {
+    color: #b9b9b9;
+    transform: scale(1.3);
+}
+
